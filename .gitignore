@@ -1,0 +1,14 @@
+# Ignore the data directory completely
+data/
+Data/
+
+# Ignore any random CSV or Excel files in the root
+*.csv
+*.xlsx
+*.xls
+
+# Ignore local python virtual environments and checkpoints
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+venv/
